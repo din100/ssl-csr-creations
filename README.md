@@ -7,7 +7,7 @@ Clone the dedicated folder to your local environment to begin the SSL certificat
 Access the cloned folder to proceed with the certificate generation.
 
 ## 3. Execute CSR Script
-Run the `csr.sh` script within the folder to generate the Certificate Signing Request (CSR) and private key. Ensure the utmost security of the generated key.
+Run the `./csr.sh` script within the folder to generate the Certificate Signing Request (CSR) and private key. Ensure the utmost security of the generated key.
 
 ## 4. Answer Configuration Queries
 While executing the script, respond to the configuration queries. For UK-based certificates, use 'GB' as the Country Name (2 letter code).
