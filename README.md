@@ -20,3 +20,10 @@ If you are operating on Windows with WSL, clone the folder and execute the comma
 ```bash
 /mnt/c/Users/pathto/csr-command-main/
 
+## 7. if you using older windows servers like windows 2012 or 2016 use the command below to get the pfx file as they don't work with AES256-SHA256 encryption (default on openssl)
+
+```bash
+openssl pkcs12 -export -certpbe PBE-SHA1-3DES -keypbe PBE-SHA1-3DES -nomac -inkey domain.key -in domain.crt -out domain-legacy.pfx
+
+
+
